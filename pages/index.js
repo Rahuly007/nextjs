@@ -16,7 +16,26 @@ export default function Home() {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
+        <input name="platform" id="windows" type='radio' value='Rahul' />Smit
+        <input
+          id="windows"
+          value="windows"
+          name="platform"
+          type="radio"
+        />Rahul
+
+
+
+
+
+
+
+
+
+        
+        {/* <input type='radio'>savan</input>
+<input type='radio'>smit</input> */}
+        {/* <p className={styles.description}>
           Get started by editing{' '}
           <code className={styles.code}>pages/index.js</code>
         </p>
@@ -47,9 +66,9 @@ export default function Home() {
             <h2>Deploy &rarr;</h2>
             <p>
               Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div>
+            </p> */}
+        {/* </a>
+        </div> */}
       </main>
 
       <footer className={styles.footer}>
